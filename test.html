@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="test.js"></script>
+
+    <p id="test">First paragraph</p>
+    <button type="button" onclick="alert('lol')" style="display: block;">click</button>
+    <br>
+    <button type="button" onclick="test()" style="display: block;">test</button>
+    <br>
+    <button type="button" onclick="window.print()">Print this page</button>
+    <p id="test2"></p>
+    <p id="test3"></p>
+    <p id="test4"></p>
+
+    <p id="test5"></p>
+
+    <p id="test6"></p>
+
+    <script>
+        let x = 1;
+        let y = 2;
+        let z = x + y;
+        let a = 10;
+
+        document.getElementById("test2").innerText = "The sum of x + y is " + z;
+        document.getElementById("test3").innerText = "y multiplied by 2 is " + (y * 2);
+
+        document.getElementById("test4").innerText = "10 is " + a;
+        document.write(1 + 1);
+        console.log("Hello, world!");
+    </script>
+</body>
+
+</html>
